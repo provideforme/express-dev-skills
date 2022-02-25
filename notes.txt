@@ -1,0 +1,23 @@
+# Exercises
+
+Lab’s goal is to put in a rep doing everything that you did during the [Express Routers & Controllers](https://www.notion.so/Express-Routers-Controllers-d1d13d2ef3fc4b77b42e00e0821ce4ad) lesson:
+
+- Scaffold a new app named `express-dev-skills` using `e-gen-replacement` (don’t forget to run `npm i`).
+- Be sure to create an array of “fake” data representing some of your awesome developer skills. The specific properties describing a skill object is up to you!
+- Implement **index** functionality for the `skills` resource
+- Implement **show** functionality for the `skills` resource
+
+## Hints
+
+- Keep the data resource name short and simple - something like `skills`.
+- Following best-practice routing and MVC will result in the following modules for the `skills` resource:
+    - **`routes/skills.js`**
+    - **`data/skill-db.js`**
+    - **`views/skills`**
+    - **`controllers/skills.js`**
+- Use [RESTful/Resourceful Routing Conventions](https://www.notion.so/RESTful-Resourceful-Routing-Conventions-6ea1354646bf42c7a7471769981a57cc)
+
+# Bonuses
+
+- Use EJS partial views to make your templates more DRY (see link in the Reference section of the lesson) or [**this link**](https://www.npmjs.com/package/ejs#includes).
+- Add styling or use a CSS framework to make the app look better
